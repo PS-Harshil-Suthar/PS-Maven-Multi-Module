@@ -1,0 +1,114 @@
+[
+    {
+        "businessKey": "VSK-00000000-0000-0000-0000-000000000003",
+        "substanceType": "CHEMICAL",
+        "substanceCategory": "SINGLE",
+        "resourceType": "SUBSTANCE",
+        "resourceStatus": "UPDATED",
+        "groupType": null,
+        "members": [],
+        "identifiers": [
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "68130-14-3",
+                "languageCode": "en"
+            },
+            {
+                "type": "MOLECULAR_FORMULA",
+                "otherIdentifierDescription": null,
+                "value": "C2H4O2.xH3O4P.xUnspecified",
+                "languageCode": "en"
+            },
+            {
+                "type": "NAME",
+                "otherIdentifierDescription": null,
+                "value": "Acetylated distarch phosphate",
+                "languageCode": "en"
+            }
+        ]
+    },
+    {
+        "businessKey": "VSK-00000000-0000-0000-0000-000000000006",
+        "substanceType": "CHEMICAL",
+        "substanceCategory": "SINGLE",
+        "resourceType": "SUBSTANCE",
+        "resourceStatus": "UPDATED",
+        "groupType": null,
+        "members": [],
+        "identifiers": [
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "1174498-63-5",
+                "languageCode": "en"
+            },
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "1204183-58-3",
+                "languageCode": "en"
+            },
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "1310326-46-5",
+                "languageCode": "en"
+            },
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "158859-30-4",
+                "languageCode": "en"
+            },
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "179095-17-1",
+                "languageCode": "en"
+            },
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "307314-12-1",
+                "languageCode": "en"
+            },
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "68333-79-9",
+                "languageCode": "en"
+            },
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "69494-34-4",
+                "languageCode": "en"
+            },
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "811862-84-7",
+                "languageCode": "en"
+            },
+            {
+                "type": "CAS_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "866775-46-4",
+                "languageCode": "en"
+            },
+            {
+                "type": "EC_NUMBER",
+                "otherIdentifierDescription": null,
+                "value": "269-789-9",
+                "languageCode": "en"
+            },
+            {
+                "type": "NAME",
+                "otherIdentifierDescription": null,
+                "value": "Polyphosphoric acids, ammonium salts",
+                "languageCode": "en"
+            }
+        ]
+    }
+]

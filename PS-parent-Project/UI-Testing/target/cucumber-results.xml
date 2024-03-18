@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="175.825">
+    <testcase classname="Login" name="Invalid Login" time="17.941">
+        <system-out><![CDATA[Given User is on the Login Page.............................................passed
+When User enters the invalid username and password..........................passed
+Then User will get the error message error message..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="Valid Login" time="13.347">
+        <system-out><![CDATA[Given User is on the Login Page.............................................passed
+When user enters the valid username and password............................passed
+Then User will be redirected to the Home Page of OrangeHRM..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Directory Functionality" name="Access Directory Page and Search for Employee" time="34.995">
+        <system-out><![CDATA[Given User is on the Login Page.............................................passed
+When User enters the valid username and password............................passed
+Then User will be redirected to the Home Page of OrangeHRM..................passed
+Then User will click to the directory button................................passed
+When User enters "O" in the search bar......................................passed
+And User selects a Job Title from the dropdown list.........................passed
+And User selects a Location from the dropdown options.......................passed
+Then User initiates the search..............................................passed
+And User selects a record...................................................passed
+Then User resets the search.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="maintanance Functionality" name="Purge Feature" time="29.815">
+        <system-out><![CDATA[Given User is on the Login Page.............................................passed
+When User enters the valid username and password............................passed
+Then User will be redirected to the Home Page of OrangeHRM..................passed
+Then User will click to the maitenance button...............................passed
+And User is enter the password for Administration Access....................passed
+Then User will be redirected to the Maintenance Page of OrangeHRM...........passed
+And user will click on the Purge Record dropdown option.....................passed
+When User will select the Candidate Record..................................passed
+Then User enter the text into the vacancy and select the option.............passed
+And User will initiate search...............................................passed
+Then user will click the purge button.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="maintanance Functionality" name="Employees Records" time="26.393">
+        <system-out><![CDATA[Given User is on the Login Page.............................................passed
+When User enters the valid username and password............................passed
+Then User will be redirected to the Home Page of OrangeHRM..................passed
+Then User will click to the maitenance button...............................passed
+And User is enter the password for Administration Access....................passed
+Then User will be redirected to the Maintenance Page of OrangeHRM...........passed
+And user will click on the Purge Record dropdown option.....................passed
+When User will select the Employee Record...................................passed
+Then enter the text into the Past Employee textbox and select the option....passed
+And User will initiate search...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="maintanance Functionality" name="Confirm Purge Records" time="20.873">
+        <system-out><![CDATA[Given User is on the Login Page.............................................passed
+When User enters the valid username and password............................passed
+Then User will be redirected to the Home Page of OrangeHRM..................passed
+Then User will click to the maitenance button...............................passed
+And User is enter the password for Administration Access....................passed
+Then User will be redirected to the Maintenance Page of OrangeHRM...........passed
+And user will click on the Purge Record dropdown option.....................passed
+Then user click on the Yes, Purge button to confirm the purge...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="maintanance Functionality" name="Access Records options" time="31.522">
+        <system-out><![CDATA[Given User is on the Login Page.............................................passed
+When User enters the valid username and password............................passed
+Then User will be redirected to the Home Page of OrangeHRM..................passed
+Then User will click to the maitenance button...............................passed
+And User is enter the password for Administration Access....................passed
+Then User will be redirected to the Maintenance Page of OrangeHRM...........passed
+And user will click on the Purge Record dropdown option.....................passed
+When User will select the Access Record.....................................passed
+Then User enters the Name in Employee name texbox...........................passed
+And select the name from the options........................................passed
+And User will initiate search...............................................passed
+Then user click the download button.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
